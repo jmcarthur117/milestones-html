@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS Style</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+  <style>
+
+body {
+  background-color: darkgrey;
+  background-image: url(https://media.giphy.com/media/dZ3WhYEp6BnsriB1fN/giphy.gif);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+h2{
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+div > h2 {
+  color: gold;
+}
+div.up {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+div.lineheight {
+  line-height:300%;
+}
+div.letterspacing {
+  letter-spacing: 10px;
+}
+div.family {
+  font-family: monospace;
+}
+div.size {
+  font-size: 30px;
+}
+div.style {
+  font-style: italic;
+}
+div.weight {
+  font-weight: lighter;
+}
+ol.uproman{
+  list-style-type: upper-roman;
+}
+ol.lowercase {
+  list-style-type: lower-alpha;
+}
+#lion {
+  border:solid rgb(255, 217, 0) 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 70%;
+  padding: 40px;
+}
+
+  </style>
+  </head>
+
+  <body>
+
+    <div class="topnav">
+      <a class="home" href = "index.html">Home</a>
+      <a href = "snippet.html">Snippet</a>
+      <a href = "basic-tags.html">Basic Tags</a>
+      <a href = "basic-tags-styles.html">Tag Styles</a>
+      <a href = "basic-css.html">CSS</a>
+      <a href = "multimedia.html">Multimedia</a>
+    </div>
+
+
+    <h1>Some CSS Stuff</h1>
+
+  <h2>line-height</h2>
+    <div class="lineheight">This is a line height<br>
+    This line is triped spaced because I set the line height to 300%</div>
+
+    <h2>text-transformation</h2>
+    <div class="up">this text is transformed to all uppercase</div>
+
+  <h2>letter-spacing</h2>
+      <div class="letterspacing">This Is James And These Letters Are Spaced Out</div>
+
+  <h2>font-family, font-size, font-style, font-weight</h2>
+      <div class="family">this font family is monospace</div>
+      <div class="size">this is a large font size</div>
+      <div class="style">this font will be in italics</div>
+      <div class="weight">this font weight will be set at lighter.</div>
+
+  <h2>list-style-type</h2>
+      <ol class="uproman">
+        <li>Hi</li>
+        <li>This</li>
+        <li>is</li>
+        <li>James</li>
+      </ol>
+
+      <br>
+
+     <ol class="lowercase">
+        <li>Hi</li>
+        <li>This</li>
+        <li>is</li>
+        <li>James</li>
+    </ol>
+
+  <section>
+  <h2>margin, padding, border</h2>
+
+    <p> This image, padding, margin, and border of the penguin were edited with an <code>id</code> tag. </p>
+    <img src="https://i.pinimg.com/originals/1c/2f/52/1c2f52962906d49ee2c3359a23de64e1.jpg" alt="lion" id="lion"
+    height=1000 weight=1000>
+  </section>
+
+
+  <h2> All of the headings are black and this is an example of a descendant combinator</h2>
+
+  <div>
+    <h2>This header will not be the same as the others, because I changed it to gold with a child combinator.</h2>
+  </div>
+
+  </body>
+
+</html>
