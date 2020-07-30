@@ -1,0 +1,73 @@
+.topnav {
+  background-color: #5c5a59;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #181061;
+}
+.topnav a.active {
+  background-color:white;
+  color: white;
+}
+
+body {
+  background-color: darkgrey;
+  background-image: url(https://media.giphy.com/media/dZ3WhYEp6BnsriB1fN/giphy.gif);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+h2{
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+div > h2 {
+  color: gold;
+}
+div.up {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+div.lineheight {
+  line-height:300%;
+}
+div.letterspacing {
+  letter-spacing: 10px;
+}
+div.family {
+  font-family: monospace;
+}
+div.size {
+  font-size: 30px;
+}
+div.style {
+  font-style: italic;
+}
+div.weight {
+  font-weight: lighter;
+}
+ol.uproman{
+  list-style-type: upper-roman;
+}
+ol.lowercase {
+  list-style-type: lower-alpha;
+}
+#lion {
+  border:solid rgb(255, 217, 0) 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 70%;
+  padding: 40px;
+}

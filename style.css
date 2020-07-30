@@ -47,7 +47,11 @@ body {
   text-align: center;
 }
 p {
-  color: white;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
 }
 #body1 , #body2 {
   text-align: center;
@@ -55,4 +59,52 @@ p {
 #helplist {
   text-align: left;
   color: white;
+}
+
+.head1 {
+  color: #ffffff;
+  text-align: center;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.body1 {
+  text-align: center;
+}
+
+.head2 {
+  color: #000000;
+  text-align: center;
+}
+
+.tags {
+  color:maroon;
+  text-align: center;
+}
+
+.audio {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.video {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#tables {
+
+}
+div.quote {
+  color: red;
+}
+div.ollists {
+  color: rgb(57, 117, 97);
+}
+div.table3 {
+  color: orange;
+}
+div.tableborder {
+  border: solid blue;
 }

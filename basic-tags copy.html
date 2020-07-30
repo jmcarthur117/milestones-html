@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Tags Styles</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <style>
+    #tags {
+      color:maroon;
+      text-align: center;
+    }
+
+    #tables {
+
+    }
+    div.quote {
+      color: red;
+    }
+    div.ollists {
+      color: rgb(57, 117, 97);
+    }
+    div.table3 {
+      color: orange;
+    }
+    div.tableborder {
+      border: solid blue;
+    }
+  </style>
+
+</head>
+  <body>
+
+    <div class="topnav">
+      <a class="home" href = "index.html">HomePage</a>
+      <a href="snippet.html">Snippet</a>
+      <a href="basic-tags.html">Basic Tags</a>
+      <a href="basic-tags-styles.html">Tag Styles</a>
+      <a href="basic-css.html">CSS</a>
+      <a href="multimedia.html">Multimedia</a>
+    </div>
+
+    <h1 id="tags">Basic Tags</h1>
+      <section>
+        <h2 id="tags">The Paragraph &lt;p&gt; Tag</h2>
+          <p>This is a paragraph.  Paragraphs are blocks of text and/or images and form fields.
+             Paragraphs are block elements and will automatically close if another block-level element is parsed before the closing of the &lt;/p&gt; element.
+             &lt;p&gt; is the opening tag of the p element and &lt;/p&gt; is the closing tag of the p element.
+             They relate to one another because thay set the boundaries of the paragraph element and anything within the &lt;p&gt; and the &lt;/p&gt; tags
+             will show up as text, images, forms, etc.
+          </p>
+      <section>
+        <h2 id="tags">The Blockquote &lt;blockquote&gt; Tag</h2>
+        <p>Here is a quote from Walt Disney</p>
+        <blockquote cite="https://www.brainyquote.com/quotes/walt_disney_131640">
+        "The way to get started is to quit talking and begin doing."
+        </blockquote>
+      <section>
+        <h2 id="tags">The Pre-Formatted Text &lt;pre&gt;</h2>
+        <pre>
+          This is the pre-formatted tag of html which is displayed in a fixed-width font,
+          and it preserves both spaces and line breaks.
+        </pre>
+      </section>
+      </section>
+        <h2 id="tags">The &lt;em&gt; and &lt;i&gt; Tags</h2>
+        <p>The &lt;em&gt; tag is used to emphasize words in a text while the &lt;i&gt; tag is used to make words italic.</p>
+        <p>You <em>have</em> to hurry up!</p>
+        <p>I can't stop reading <i>The Hunger Games</i></p>
+      </section>
+      <section>
+        <h2 id="tags">The &lt;strong&gt; and &lt;b&gt; Tags</h2>
+        <p>
+          The &lt;strong&gt; tag is used to mark text with strong importance.  The content inside this tag is typically displayed in bold.
+          The &lt;b&gt; tag is used to show words in bold without marking them as important.
+        </p>
+        <p><strong>THIS TEXT IS IMPORTANT!</strong></p>
+        <p>This is normal text - <b>and this is bold text.</b></p>
+      </section>
+      <section>
+        <h2 id="tags">The &lt;code&gt; Tag</h2>
+        <p>The &lt;code&gt; tag is used to define a piece of computer code.  The content inside it is displayed in the browser's monospace font.
+          Here is an example of code: <code>&lt;a href="https://google.com" id="the-best-link" class="banana"  target="_blank">Google&lt;/a&gt;!</code></p>
+      </section>
+      <section>
+        <h2 id="tags">The &lt;a&gt; Tag</h2>
+        <p>
+          The HTML &lt;a&gt; element or anchor element, with its href attribute, creates a hyperlink to web pages, files, email addresses,
+          locations in the same page, or anything else a URL can address.  Content within each  &lt;a&gt; should indicate the link's destination.
+        </p>
+        <p>
+          Want to learn more about the anchor tag?
+          Try <a href="https://www.w3schools.com/tags/tag_a.asp" id="the-best-link" class="banana"  target="_blank">HTML &lt;a&gt; Tag</a>!
+        </p>
+      </section>
+      <section>
+        <h2 id="tags">The &lt;img&gt; Tag</h2>
+        <p>
+          The &lt;img&gt; Tag is used to embed an image in an HTML page.  Images are not technically inserted into a web page; images are linked to web pages.
+          The &lt;img&gt; tag creates a holding space for the referenced image.  This tag also requires two attributes which are the src and alt attributes.
+          The src attribute specifies the path to the image while the alt attribute specifies an alternative text the image, if the image for some reason cannot
+          be displayed.
+        </p>
+        <p>This is an image that has a valid source and displays no alt attribute. <img src="james.jpg" width="500" height="600" alt="A Picture Of James" class="center"></p>
+        <p>This is an image that has no valid source and displays the alt attribute text. <img src="img_none.jpg" alt="There Is No Picture" class="center"></p>
+      </section>
+      <section>
+        <h2 id="tags">The Different Header Tags &lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;</h2>
+        <p>There are six different header types going from 1 (biggest) to 6 (smallest)</p>
+        <h1 id="tags">This Is Header One</h1>
+        <h2 id="tags">This Is Header Two</h2>
+        <h3 id="tags">This Is Header Three</h3>
+        <h4 id="tags">This Is Header Four</h4>
+        <h5 id="tags">This Is Header Five</h5>
+        <h6 id="tags">This Is Header Six</h6>
+      </section>
+      <section>
+        <h2 id="tags">List Of Places Around The World</h2>
+        <ul>
+          <li>San Jose</li>
+          <li>Hong Kong</li>
+          <li>Sydney</li>
+          <li>London</li>
+          <li>San Francisco</li>
+          <li>New York</li>
+          <li>Chicago</li>
+        </ul>
+      </section>
+      <section>
+        <ol type="1">
+          <li>San Jose</li>
+          <li>Hong Kong</li>
+          <li>Sydney</li>
+          <li>London</li>
+          <li>San Francisco</li>
+          <li>New York</li>
+          <li>Chicago</li>
+        </ol>
+      </section>
+      <section>
+        <ol type="A">
+          <li>California</li>
+            <ul>
+              <li>San Diego</li>
+              <li>San Francisco</li>
+              <li>Los Angelos</li>
+              <li>Sacremento</li>
+              <li>San Jose</li>
+            </ul>
+          <li>Oregon</li>
+            <ul>
+                <li>Portland</li>
+                <li>Salem</li>
+                <li>Beaverton</li>
+                <li>Tigrad</li>
+            </ul>
+        </ol>
+      </section>
+
+      <h2 id="tags">Tables</h2>
+
+<table style="width: 25%">
+
+  <tr>
+    <th>a</th>
+    <th>b</th>
+    <th>c</th>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td>d</td>
+    <td>h</td>
+  </tr>
+  <tr>
+    <td>b</td>
+    <td>e</td>
+    <td>i</td>
+  </tr>
+  <tr>
+    <td>c</td>
+    <td>f</td>
+    <td>g</td>
+  </tr>
+
+</table>
+
+<table style="width: 50%">
+
+  <tr>
+    <th>x</th>
+    <th>y</th>
+    <th>x^y</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>4</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>5</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>6</td>
+    <td>18</td>
+  </tr>
+
+</table>
+
+<table style="width: 75%">
+
+  <tr>
+    <th>x</th>
+    <th>y</th>
+    <th>x-y</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>4</td>
+    <td>-3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>5</td>
+    <td>-3</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>6</td>
+    <td>-3</td>
+  </tr>
+
+</table>
+
+</section>
+
+  </body>
+</html>
